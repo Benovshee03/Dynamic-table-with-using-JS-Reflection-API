@@ -10,25 +10,24 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <script src="./src/main.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div>
-        <label for="Addtext">Add File</label>
-        <input type="text" name="Addtext" class="input-group border-info" />
+    <div class="container d-flex flex-direction-column align-items-center">
+      <div class="input-group mb-3 mt-3">
+        <label class="input-group-text" for="inputGroupFile01">Upload</label>
+        <input type="file" class="form-control" id="inputGroupFile01">
+      </div>
     </div>
-    </div>
-    <table class="table">
+    <table class="table " id="dataTable" >
       <thead>
         <th>Name</th>
         <th>Surname</th>
         <th>Mail</th>
         <th>Phone Number</th>
       </thead>
-      <tbody>
-        
-      </tbody>
+      <tbody></tbody>
     </table>
+    <script  src="./src/main.js"></script>
+
   </body>
 </html>
